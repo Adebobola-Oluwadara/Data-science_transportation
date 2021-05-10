@@ -27,7 +27,7 @@ def main():
         print('Invalid inputs.\n Restarting app in 5sec....')
         countdown_timer()
 
-
+#main method that does user interaction
 def user_interaction(df):
 
     """
@@ -67,7 +67,7 @@ def user_interaction(df):
             print('Thank you for using bike share, have a lovely day')
             return
 
-
+# method used in setting a countdown timer for app to reset
 def countdown_timer():
     """
     Countdown timer that counts for 5secs before
