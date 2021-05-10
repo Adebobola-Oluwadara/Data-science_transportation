@@ -27,7 +27,7 @@ def main():
         print('Invalid inputs.\n Restarting app in 5sec....')
         countdown_timer()
 
-
+#main method that does user interaction
 def user_interaction(df):
 
     """
