@@ -27,9 +27,9 @@ def main():
         print('Invalid inputs.\n Restarting app in 5sec....')
         countdown_timer()
 
-#main method that does user interaction
-def user_interaction(df):
 
+# main method that does user interaction
+def user_interaction(df):
     """
     Facilitates user interaction by taking inputs and validating them to generate processed data
     Parameter:
@@ -67,6 +67,7 @@ def user_interaction(df):
             print('Thank you for using bike share, have a lovely day')
             return
 
+
 # method used in setting a countdown timer for app to reset
 def countdown_timer():
     """
@@ -84,7 +85,6 @@ def countdown_timer():
 
 
 def choose_month():
-
     """
     Helper method for validating input for month
     :Returns:
@@ -144,7 +144,6 @@ def choose_day_week():
 
 
 def load_data(city, month, day):
-
     """
     Loads data from CSV file to dataframe and apply user selected filters
     :parameter
@@ -261,7 +260,6 @@ def user_stats(df):
 
 
 def calculate_month(month):
-
     """
     Helper method for mapping month number to readable month string
     :param
